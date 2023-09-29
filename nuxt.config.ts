@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default {
+	target: 'static',
 	head: {
 		title: process.env.npm_package_name || '',
 		meta: [
@@ -15,7 +16,7 @@ export default {
 	},
 	build: {},
 	router: {
-		base: 'https://s4toshiyoshi.github.io/testTask-Warefly/',
+		base: '/testTask-Warefly/',
 	},
 	components: true,
 };
